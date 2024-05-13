@@ -1,0 +1,151 @@
+{
+    "Name" : "Chronomyst Base Pack",
+    "Description" : "Chronomyst's Built In Resources - The Base Game",
+    "Biomes" : [
+        {"Name":"Plains",
+        "MinTreeThinning":"3",
+        "MaxTreeThinning":"2",
+        "CanRain??":true,
+        "CanSnow?":true,
+        "BlockTypes":{
+            "Grass":"Grass",
+            "Dirt":"Dirt",
+            "Stone":"Stone",
+            "Trees":"Oak Tree",
+            "Mountains":"Mountain"
+        }
+        },
+        {"Name":"Desert",
+        "MinTreeThinning":"3",
+        "MaxTreeThinning":"3",
+        "CanRain?":false,
+        "CanSnow?":false,
+        "BlockTypes":{
+            "Grass":"Sand",
+            "Dirt":"Sand",
+            "Stone":"Sandstone",
+            "Trees":"Cactus",
+            "Trees-Large":"Palm Tree",
+            "Mountains":"Sand Spire"
+        }
+        },
+        {"Name":"Snow",
+        "MinTreeThinning":"3",
+        "MaxTreeThinning":"1",
+        "CanRain?":false,
+        "CanSnow?":true,
+        "BlockTypes":{
+            "Grass":"Snow",
+            "Dirt":"Dirt",
+            "Stone":"Stone",
+            "Trees":"Pine Tree",
+            "Trees-Large":"Palm Tree",
+            "Mountains":null
+        }
+        },
+        {"Name":"Savanna",
+        "MinTreeThinning":"2",
+        "MaxTreeThinning":"1",
+        "CanRain?":false,
+        "CanSnow?":false,
+        "BlockTypes":{
+            "Grass":"Grass",
+            "Dirt":"Dirt",
+            "Stone":"Stone",
+            "Trees":"Acacia Tree",
+            "Mountains":"Mountain"
+        }
+        },
+        {"Name":"Swamp",
+        "MinTreeThinning":"2",
+        "MaxTreeThinning":"1",
+        "CanRain?":true,
+        "CanSnow?":false,
+        "BlockTypes":{
+            "Grass":"Water",
+            "Dirt":"Water",
+            "Stone":"Water",
+            "Trees":"Mangrove Tree",
+            "Mountains":"Water"
+        }
+        },
+        {"Name":"Jungle",
+        "MinTreeThinning":"2",
+        "MaxTreeThinning":"1",
+        "CanRain?":true,
+        "CanSnow?":false,
+        "BlockTypes":{
+            "Grass":"Grass",
+            "Dirt":"Dirt",
+            "Stone":"Stone",
+            "Trees":"Mahogany Tree",
+            "Mountains":"Large Mountain"
+        }
+        },
+        {"Name":"Magma Plains",
+        "MinTreeThinning":"3",
+        "MaxTreeThinning":"3",
+        "CanRain?":false,
+        "CanSnow?":false,
+        "BlockTypes":{
+            "Grass":"Ashen Dirt",
+            "Dirt":"Magma",
+            "Stone":"Magma",
+            "Trees":"Ashen Tree",
+            "Mountains":"Volcano"
+        }
+        },
+        {"Name":"Redwood Forest",
+        "MinTreeThinning":"2",
+        "MaxTreeThinning":"1",
+        "CanRain?":true,
+        "CanSnow?":true,
+        "BlockTypes":{
+            "Grass":"Grass",
+            "Dirt":"Dirt",
+            "Stone":"Stone",
+            "Trees":"Redwood Tree",
+            "Mountains":"Mountain"
+        }
+        },
+        {"Name":"Gray Swamp",
+        "MinTreeThinning":"3",
+        "MaxTreeThinning":"3",
+        "CanRain?":true,
+        "CanSnow?":false,
+        "BlockTypes":{
+            "Grass":"Water",
+            "Dirt":"Water",
+            "Stone":"Water",
+            "Trees":"Dead Mangrove Tree",
+            "Mountains":"Water"
+        }
+        },
+        {"Name":"Boreal Forest",
+        "MinTreeThinning":"2",
+        "MaxTreeThinning":"1",
+        "CanRain?":true,
+        "CanSnow?":true,
+        "BlockTypes":{
+            "Grass":"Grass",
+            "Dirt":"Dirt",
+            "Stone":"Stone",
+            "Trees":"Pine Tree",
+            "Mountains":"Mountain"
+        }
+        },
+        {"Name":"Mountain Range",
+        "MinTreeThinning":"3",
+        "MaxTreeThinning":"3",
+        "CanRain?":true,
+        "CanSnow?":true,
+        "BlockTypes":{
+            "Grass":"Mountain",
+            "Dirt":"Mountain",
+            "Stone":"Mountain",
+            "Trees":null,
+            "Mountains":"Mountain"
+        }
+        }
+    ]
+}
