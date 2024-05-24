@@ -3,8 +3,6 @@
     "Description" : "Chronomyst's Built In Resources - The Base Game",
     "Biomes" : [
         {"Name":"Plains",
-        "MinTreeThinning":"3",
-        "MaxTreeThinning":"2",
         "CanRain??":true,
         "CanSnow?":true,
         "BlockTypes":{
@@ -13,11 +11,12 @@
             "Stone":"Stone",
             "Trees":"Oak Tree",
             "Mountains":"Mountain"
+        },
+        "Tints":{
+            "Grass":[31.1,62]
         }
         },
         {"Name":"Desert",
-        "MinTreeThinning":"3",
-        "MaxTreeThinning":"3",
         "CanRain?":false,
         "CanSnow?":false,
         "BlockTypes":{
@@ -30,35 +29,35 @@
         }
         },
         {"Name":"Snow",
-        "MinTreeThinning":"3",
-        "MaxTreeThinning":"1",
         "CanRain?":false,
         "CanSnow?":true,
         "BlockTypes":{
             "Grass":"Snow",
-            "Dirt":"Dirt",
+            "Dirt":"Ice",
             "Stone":"Stone",
             "Trees":"Pine Tree",
             "Trees-Large":"Palm Tree",
             "Mountains":null
+        },
+        "Tints":{
+            "Grass":[31.1,62]
         }
         },
         {"Name":"Savanna",
-        "MinTreeThinning":"2",
-        "MaxTreeThinning":"1",
         "CanRain?":false,
         "CanSnow?":false,
         "BlockTypes":{
-            "Grass":"Grass",
+            "Grass":"DryGrass",
             "Dirt":"Dirt",
             "Stone":"Stone",
             "Trees":"Acacia Tree",
             "Mountains":"Mountain"
+        },
+        "Tints":{
+            "Grass":[31.1,62]
         }
         },
         {"Name":"Swamp",
-        "MinTreeThinning":"2",
-        "MaxTreeThinning":"1",
         "CanRain?":true,
         "CanSnow?":false,
         "BlockTypes":{
@@ -67,24 +66,26 @@
             "Stone":"Water",
             "Trees":"Mangrove Tree",
             "Mountains":"Water"
+        },
+        "Tints":{
+            "Grass":[31.1,62]
         }
         },
         {"Name":"Jungle",
-        "MinTreeThinning":"2",
-        "MaxTreeThinning":"1",
         "CanRain?":true,
         "CanSnow?":false,
         "BlockTypes":{
-            "Grass":"Grass",
+            "Grass":"LushGrass",
             "Dirt":"Dirt",
             "Stone":"Stone",
             "Trees":"Mahogany Tree",
             "Mountains":"Large Mountain"
+        },
+        "Tints":{
+            "Grass":[31.1,62]
         }
         },
         {"Name":"Magma Plains",
-        "MinTreeThinning":"3",
-        "MaxTreeThinning":"3",
         "CanRain?":false,
         "CanSnow?":false,
         "BlockTypes":{
@@ -93,11 +94,12 @@
             "Stone":"Magma",
             "Trees":"Ashen Tree",
             "Mountains":"Volcano"
+        },
+        "Tints":{
+            "Grass":[31.1,62]
         }
         },
         {"Name":"Redwood Forest",
-        "MinTreeThinning":"2",
-        "MaxTreeThinning":"1",
         "CanRain?":true,
         "CanSnow?":true,
         "BlockTypes":{
@@ -106,11 +108,12 @@
             "Stone":"Stone",
             "Trees":"Redwood Tree",
             "Mountains":"Mountain"
+        },
+        "Tints":{
+            "Grass":[31.1,62]
         }
         },
         {"Name":"Gray Swamp",
-        "MinTreeThinning":"3",
-        "MaxTreeThinning":"3",
         "CanRain?":true,
         "CanSnow?":false,
         "BlockTypes":{
@@ -119,24 +122,26 @@
             "Stone":"Water",
             "Trees":"Dead Mangrove Tree",
             "Mountains":"Water"
+        },
+        "Tints":{
+            "Grass":[31.1,62]
         }
         },
         {"Name":"Boreal Forest",
-        "MinTreeThinning":"2",
-        "MaxTreeThinning":"1",
         "CanRain?":true,
         "CanSnow?":true,
         "BlockTypes":{
-            "Grass":"Grass",
+            "Grass":"ColdGrass",
             "Dirt":"Dirt",
             "Stone":"Stone",
             "Trees":"Pine Tree",
             "Mountains":"Mountain"
+        },
+        "Tints":{
+            "Grass":[31.1,62]
         }
         },
         {"Name":"Mountain Range",
-        "MinTreeThinning":"3",
-        "MaxTreeThinning":"3",
         "CanRain?":true,
         "CanSnow?":true,
         "BlockTypes":{
@@ -145,6 +150,9 @@
             "Stone":"Mountain",
             "Trees":null,
             "Mountains":"Mountain"
+        },
+        "Tints":{
+            "Grass":[31.1,62]
         }
         }
     ]
