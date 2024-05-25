@@ -1,6 +1,8 @@
 {
     "Name" : "Chronomyst Base Pack",
     "Description" : "Chronomyst's Built In Resources - The Base Game",
+    "BlockReference" : ["Stone","Stone","Dirt,Stone","Grass,Dirt","Grass","Grass","Grass,Dirt","Grass,Dirt,Stone,Mountain","Mountain,Mountain+","Mountain+"],
+    "VegetationReference" : ["0", "0.15", "0.25", "0.5", "0.65", "0.60", "0.5", "0.25", "0.15", "0"],
     "Biomes" : [
         {"Name":"Plains",
         "CanRain??":true,
@@ -10,6 +12,7 @@
             "Dirt":"Dirt",
             "Stone":"Stone",
             "Trees":"Oak Tree",
+            "Trees-Large":"Old Growth Oak Tree",
             "Mountains":"Mountain"
         },
         "Tints":{
@@ -36,8 +39,8 @@
             "Dirt":"Ice",
             "Stone":"Stone",
             "Trees":"Pine Tree",
-            "Trees-Large":"Palm Tree",
-            "Mountains":null
+            "Trees-Large":"Redwood Tree",
+            "Mountains":"Air"
         },
         "Tints":{
             "Grass":[31.1,62]
@@ -51,6 +54,7 @@
             "Dirt":"Dirt",
             "Stone":"Stone",
             "Trees":"Acacia Tree",
+            "Trees-Large":"Baobab Tree",
             "Mountains":"Mountain"
         },
         "Tints":{
@@ -61,11 +65,12 @@
         "CanRain?":true,
         "CanSnow?":false,
         "BlockTypes":{
-            "Grass":"Water",
-            "Dirt":"Water",
-            "Stone":"Water",
+            "Grass":"Swamp Water",
+            "Dirt":"Swamp Water",
+            "Stone":"Swamp Water",
             "Trees":"Mangrove Tree",
-            "Mountains":"Water"
+            "Trees-Large":"Glowing Mangrove Tree",
+            "Mountains":"Swamp Water"
         },
         "Tints":{
             "Grass":[31.1,62]
@@ -79,6 +84,7 @@
             "Dirt":"Dirt",
             "Stone":"Stone",
             "Trees":"Mahogany Tree",
+            "Trees-Large":"Baobab Tree",
             "Mountains":"Large Mountain"
         },
         "Tints":{
@@ -92,7 +98,8 @@
             "Grass":"Ashen Dirt",
             "Dirt":"Magma",
             "Stone":"Magma",
-            "Trees":"Ashen Tree",
+            "Trees":"Air",
+            "Trees-Large":"Ashen Tree",
             "Mountains":"Volcano"
         },
         "Tints":{
@@ -107,6 +114,7 @@
             "Dirt":"Dirt",
             "Stone":"Stone",
             "Trees":"Redwood Tree",
+            "Trees-Large":"Old Redwood Tree",
             "Mountains":"Mountain"
         },
         "Tints":{
@@ -117,11 +125,12 @@
         "CanRain?":true,
         "CanSnow?":false,
         "BlockTypes":{
-            "Grass":"Water",
-            "Dirt":"Water",
-            "Stone":"Water",
-            "Trees":"Dead Mangrove Tree",
-            "Mountains":"Water"
+            "Grass":"Swamp Water",
+            "Dirt":"Swamp Water",
+            "Stone":"Swamp Water",
+            "Trees":"Air",
+            "Trees-Large":"Dead Mangrove Tree",
+            "Mountains":"Swamp Water"
         },
         "Tints":{
             "Grass":[31.1,62]
@@ -135,6 +144,7 @@
             "Dirt":"Dirt",
             "Stone":"Stone",
             "Trees":"Pine Tree",
+            "Trees-Large":"Redwood Tree",
             "Mountains":"Mountain"
         },
         "Tints":{
@@ -148,7 +158,8 @@
             "Grass":"Mountain",
             "Dirt":"Mountain",
             "Stone":"Mountain",
-            "Trees":null,
+            "Trees":"Air",
+            "Trees-Large":"Air",
             "Mountains":"Mountain"
         },
         "Tints":{
